@@ -2,246 +2,230 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cardápio de Pizzas</title>
 
-    <!-- Bootstrap  -->
+    <!-- Bootstrap 4.5.2 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <!-- CSS Custom -->
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Font Awesome Icons -->
-    <script src="https://kit.fontawesome.com/1f685aa466.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-        <header>
-            <!-- Barra de Navegação -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                <a class="navbar-brand" href="index.html">
-                    <img src="images/logo.01.jpeg" alt="logo" width="55px">
-                </a>
-    
-                <!-- Botão menu colapso -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-    
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="pag.sobre.html">Sobre nós</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pag.pizzas.html">Cardápio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pag.cadastro.html">Cadastro</a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </nav>
-        </header>
+
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+<a class="navbar-brand" href="index.html">
+<img src="images/logo.01.jpeg" width="55">
+</a>
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+<i class="fas fa-bars"></i>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav">
+
+<li class="nav-item">
+<a class="nav-link" href="pag.sobre.html">Sobre nós</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="pag.pizzas.html">Cardápio</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="pag.cadastro.html">Cadastro</a>
+</li>
+
+</ul>
+</div>
+
+</nav>
+</header>
 
 
+<main class="container mt-5 pt-5">
 
-        <!-- CATALOGO PIZZAS  -->
-
-        <main class="container mt-5 pt-5">
-            <h2 class="custom-heading text-center">Nossas Pizzas</h2>
-        </main>
-        
-        
-       
-            
-        <section class="row">
-            <!-- PIZZA 1 -->
-            <article class="col-md-4 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img src="images/0margherita.png" alt="Pizza Margherita" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">Margherita</h3>
-                        <p class="card-text">O destaque dessa pizza está no nosso pomodoro feito com tomates italianos.</p>
-                        <h5 class="card-text">R$80,00</h5>
-                        <form action="/update-quantity" method="POST">
-                            <div class="quantity-controls">
-                                <!-- Controles de quantidade -->
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </article>
-
-            <!-- PIZZA 2 -->
-            <article class="col-md-4 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img src="images/0Pepperoni.png" alt="Pizza Pepperoni" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">Pepperoni</h3>
-                        <p class="card-text">Feita com o melhor pepperoni, mussarela e tomate.</p>
-                        <h5 class="card-text">R$80,00</h5>
-                        <form action="/update-quantity" method="POST">
-                            <div class="quantity-controls">
-                                <!-- Controles de quantidade -->
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </article>
-
-            <!-- PIZZA 3 -->
-            <article class="col-md-4 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img src="images/0LaReine.png" alt="Pizza La Reine" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">La Reine</h3>
-                        <p class="card-text">Nossa favorita! Feita com mozzarela, presunto, azeitonas pretas, cogumelos, e tomate.</p>
-                        <h5 class="card-text">R$85,00</h5>
-                        <form action="/update-quantity" method="POST">
-                            <div class="quantity-controls">
-                                <!-- Controles de quantidade -->
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </article>
-
-            <!-- PIZZA 4 -->
-            <article class="col-md-4 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img src="images/0CarneBBQ.png" alt="Pizza Carne Louca BBQ" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">Carne Louca BBQ</h3>
-                        <p class="card-text">Carne temperada com toque de pimenta, molho BBQ, mozzarela e cebolas roxas, coberta com tomates assados e salsinha.</p>
-                        <h5 class="card-text">R$95,00</h5>
-                        <form action="/update-quantity" method="POST">
-                            <div class="quantity-controls">
-                                <!-- Controles de quantidade -->
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </article>
-
-            <!-- PIZZA 5 -->
-            <article class="col-md-4 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img src="images/0PollodAstra.png" alt="Pizza Pollo D'Astra" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">Pollo D'Astra</h3>
-                        <p class="card-text">Frango temperado com cajun, cebolas roxas, mozzarela, tomate, alho e pimentões vermelhos doces.</p>
-                        <h5 class="card-text">R$85,00</h5>
-                        <form action="/update-quantity" method="POST">
-                            <div class="quantity-controls">
-                                <!-- Controles de quantidade -->
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </article>
-
-            <!-- PIZZA 6 -->
-            <article class="col-md-4 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img src="images/0fiorentina.png" alt="Pizza Fiorentina" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">Fiorentina</h3>
-                        <p class="card-text">Aquela com 'ovo e espinafre', além de mozzarela, tomate, queijo gorgonzola, azeitonas pretas e óleo de alho.</p>
-                        <h5 class="card-text">R$95,00</h5>
-                        <form action="/update-quantity" method="POST">
-                            <div class="quantity-controls">
-                                <!-- Controles de quantidade -->
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </article>
-
-            <!-- PIZZA 7 -->
-            <article class="col-md-4 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img src="images/0LeggeraPomodoro.png" alt="Pizza Leggera Pomodoro" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">Leggera Pomodoro</h3>
-                        <p class="card-text">Com nosso saboroso pomodoro, mozzarela, tomate cereja e manjericão fresco para finalizar.</p>
-                        <h5 class="card-text">R$100,00</h5>
-                        <form action="/update-quantity" method="POST">
-                            <div class="quantity-controls">
-                                <!-- Controles de quantidade -->
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </article>
-
-            <!-- PIZZA 8 -->
-            <article class="col-md-4 mb-4">
-                <div class="card" style="width: 100%;">
-                    <figure>
-                        <img src="images/0giardineiraVegan.png" alt="Pizza Giardineira Vegana" class="card-img-top">
-                        <figcaption class="card-body">
-                            <h3 class="card-title">Giardineira Vegana <i class="fa-solid fa-seedling"></i></h3>
-                            <p class="card-text">Uma delícia para os amantes vegetarianos. Cogumelos, cebola roxa, azeitonas pretas, tomate, mozzarela vegana, óleo de alho e salsinha.</p>
-                            <h5 class="card-text">R$95,00</h5>
-                            <form action="/update-quantity" method="POST">
-                                <div class="quantity-controls">
-                                    <!-- Controles de quantidade -->
-                                </div>
-                            </form>
-                        </figcaption>
-                    </figure>
-                </div>
-            </article>
-
-            <!-- PIZZA 9 -->
-            <article class="col-md-4 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img src="images/0LeggeraVeganGiardiniera.png" alt="Pizza Leggera Giardineira Vegana" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">Leggera Giardineira Vegana <i class="fa-solid fa-seedling"></i></h3>
-                        <p class="card-text">Nossa querida Giardineira na versão Leggera. Cogumelos, cebola roxa, azeitonas pretas, mozzarella vegana, óleo de alho e salsinha.</p>
-                        <h5 class="card-text">R$105,00</h5>
-                        <form action="/update-quantity" method="POST">
-                            <div class="quantity-controls">
-                                <!-- Controles de quantidade -->
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </article>
-        </section>
-    </main>
+<h2 class="custom-heading text-center">
+Nossas Pizzas
+</h2>
 
 
-    <!-- Footer -->
-    <footer class="footer bg-dark text-white py-3">
-        <a href="index.html" class="ms-md-3">
-            <img src="images/logo03png.png" alt="Ícone" class="footer-icon">
-      </a>
-        <div class="container text-center">
-            <div class="d-flex justify-content-center align-items-center flex-column flex-md-row">
-                <div class="mb-2 mb-md-0">
-                    <p class="mb-0">&copy; 2024 Pisa Pizza. Todos os direitos reservados.</p>
-                    <p class="mb-0">
-                        <a href="https://www.instagram.com" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.facebook.com" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
-                        <a href="https://www.twitter.com" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
-                    </p>
-                </div>
-               
-            </div>
-        </div>
-    </footer>
+<section class="row">
 
-    <!-- Scripts do Bootstrap via CDN -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- PIZZA 1 -->
+<div class="col-md-4 mb-4">
+
+<div class="card">
+
+<img src="images/0margherita.png" class="card-img-top">
+
+<div class="card-body">
+
+<h3 class="card-title">
+Margherita
+</h3>
+
+<p class="card-text">
+Molho de tomate italiano, mussarela e manjericão.
+</p>
+
+<h5>R$80,00</h5>
+
+</div>
+</div>
+</div>
+
+
+<!-- PIZZA 2 -->
+<div class="col-md-4 mb-4">
+
+<div class="card">
+
+<img src="images/0Pepperoni.png" class="card-img-top">
+
+<div class="card-body">
+
+<h3 class="card-title">
+Pepperoni
+</h3>
+
+<p class="card-text">
+Pepperoni, molho de tomate e queijo.
+</p>
+
+<h5>R$80,00</h5>
+
+</div>
+</div>
+</div>
+
+
+<!-- PIZZA 3 -->
+<div class="col-md-4 mb-4">
+
+<div class="card">
+
+<img src="images/0LaReine.png" class="card-img-top">
+
+<div class="card-body">
+
+<h3 class="card-title">
+La Reine
+</h3>
+
+<p class="card-text">
+Presunto, cogumelos, tomate e queijo.
+</p>
+
+<h5>R$85,00</h5>
+
+</div>
+</div>
+</div>
+
+
+<!-- PIZZA 4 -->
+<div class="col-md-4 mb-4">
+
+<div class="card">
+
+<img src="images/0CarneBBQ.png" class="card-img-top">
+
+<div class="card-body">
+
+<h3 class="card-title">
+Carne BBQ
+</h3>
+
+<p class="card-text">
+Carne, molho barbecue, cebola roxa e queijo.
+</p>
+
+<h5>R$95,00</h5>
+
+</div>
+</div>
+</div>
+
+
+<!-- PIZZA 5 -->
+<div class="col-md-4 mb-4">
+
+<div class="card">
+
+<img src="images/0PollodAstra.png" class="card-img-top">
+
+<div class="card-body">
+
+<h3 class="card-title">
+Pollo D'Astra
+</h3>
+
+<p class="card-text">
+Frango, pimentões e queijo.
+</p>
+
+<h5>R$85,00</h5>
+
+</div>
+</div>
+</div>
+
+
+<!-- PIZZA 6 -->
+<div class="col-md-4 mb-4">
+
+<div class="card">
+
+<img src="images/0fiorentina.png" class="card-img-top">
+
+<div class="card-body">
+
+<h3 class="card-title">
+Fiorentina
+</h3>
+
+<p class="card-text">
+Espinafre, ovo, gorgonzola e tomate.
+</p>
+
+<h5>R$95,00</h5>
+
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main>
+
+
+<footer class="footer bg-dark text-white py-3">
+
+<div class="container text-center">
+
+<p>
+© 2024 Pisa Pizza
+</p>
+
+</div>
+
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
