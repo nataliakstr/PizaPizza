@@ -21,7 +21,7 @@
 
 
 #### Link do Projeto
-[Pisa Pizza Project](https://nataliakstr.github.io/PizaPizza/)
+[Pisa Pizza Project](https://nattorello.github.io/PisaPizza/)
 
 
 ------------
