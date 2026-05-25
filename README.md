@@ -1,27 +1,39 @@
+# 🍕 Pisa Pizza
 
-# Projeto Pisa Pizza  🍕
+Minimal pizza ordering interface built with HTML, CSS and JavaScript.
 
+<p align="center">
+  <a href="https://nattorello.github.io/PisaPizza/">Live Demo</a>
+  •
+  <a href="https://github.com/nattorello/PisaPizza">Repository</a>
+</p>
 
-![HTML](https://img.shields.io/badge/HTML-FF5722?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-00A9E0?style=flat-square&logo=css3&logoColor=white)
+---
 
-## Projeto feito para a aula de FrontEnd Estático (HTML e CSS) | Santander Coders 2024.1 
+## About
 
-#### Objetivos
-- Criar um cardápio/catálogo digital.
-- Incluir um título e uma descrição.
-- Adicionar produtos com imagem, nome e descrição.
-- Implementar um header e footer com navegação.
-- Criar uma tabela de preços.
-- Adicionar um formulário de cadastro.
+Responsive front-end project focused on user experience, layout structure and interactive UI components.
 
-#### Extra
-- A página deve ser otimizada para SEO e acessibilidade.
-- A página deve incluir alguma estilização.
+Projeto front-end responsivo focado em experiência do usuário, estruturação de layout e componentes interativos.
 
+---
 
-#### Link do Projeto
-[Pisa Pizza Project](https://nattorello.github.io/PisaPizza/)
+## Stack
 
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-------------
+---
+
+## Features
+
+- Responsive layout
+- Interactive menu
+- Product catalog
+- Clean and minimalist interface
+
+- Layout responsivo
+- Menu interativo
+- Catálogo de produtos
+- Interface minimalista
